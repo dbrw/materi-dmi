@@ -1,0 +1,193 @@
+#+TITLE: Desain Media Interaktif
+#+SUBTITLE: Mengenal Cara Kerja Web
+#+AUTHOR: Dhimas Widrayato
+#+EMAIL: dhimas@lepisi.ac.id
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_THEME: simple
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1> <p><strong>%s</strong></p> <p>%a<br />&lt;%e&gt;</p>
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/
+
+* Pendahuluan
+  
+  Gunakan tombol arah untuk navigasi atau spasi untuk mengikuti slide secara linear.
+  
+  Pada bagian kanan bawah terdapat petunjuk ke arah mana kamu bisa melanjutkan.
+  
+* Web
+  
+  /World wide web/ atau website atau web adalah sekumpulan halaman web yang saling berkaitan dan dibedakan
+  berdasarkan sebuah nama domain menggunakan protokol HTTP dan/atau HTTPS.
+
+* Internet
+  
+  Internet adalah gabungan dari jaringan komputer di seluruh dunia yang menggunakan /Internet Protocol/ (IP).
+  
+** Isi internet
+   
+   Komputer berisi data untuk dibagikan (/server/).
+
+** Bagaimana cara mengakses data?
+   
+   - email (IMAP, POP, SMTP)
+   - file (FTP)
+   - akses jarak jauh (SSH, TELNET)
+   - realtime chat (XMPP)
+   - sinkronisasi jam (NTP)
+   - suara dan video (SIP)
+   - teks (HTTP, HTTPS)
+
+** Analogi
+   
+   Jika internet adalah sebuah kompleks perumahan, maka server adalah rumah, IP adalah jalan di perumahan tersebut,
+   domain adalah nomor rumah, website adalah isi rumah, HTTP dan HTTPS adalah cara kita masuk ke rumah tersebut
+   (lewat pintu, gorong-gorong, atau lompat pagar).
+
+* Website
+
+  Sebuah website berada pada sebuah server, berisi halaman web yang saling berhubungan, dan memiliki paling
+  tidak satu buah domain yang dapat diakses melalui protokol http atau https.
+
+** Server
+
+   Server/komputer yang menyediakan halaman web untuk diakses disebut dengan web server.
+   Penyedia layanan web server disebut dengan nama /web hosting/ atau /hosting/ saja.
+   
+*** Shared hosting
+   
+   Syarat sebuah server dapat menyajikan halaman web adalah memiliki IP publik. IP publik
+   tidak murah, shared hosting merupakan layanan yang menggunakan satu IP publik untuk beberapa
+   website. Layanan ini umum digunakan di Indonesia.
+   
+*** Private hosting
+    
+    Private hosting adalah memungkinkan pemilik website untuk menyajikan halaman webnya
+    secara lebih privat (IP yang digunakan tidak dipakai bersama).
+
+** Halaman web
+
+   Halaman web dipublikasikan dengan menggunakan file teks berformat *html*.
+   File ini dapat memanggil file berjenis lain seperti css, javascript, maupun file multimedia.
+   
+*** File html
+    
+    Hypertext Markup Language (html) adalah bahasa yang digunakan untuk mempublikasikan halaman web.
+    File ini berisi informasi mengenai struktur dan isi halaman web.
+    
+*** File css
+
+    Cascading Style Sheet (css) adalah bahasa yang digunakan untuk menentukan tampilan halaman web.
+
+*** File javascript
+
+    Javascript (js) adalah bahasa pemograman yang berjalan pada web browser. Umumnya digunakan untuk
+    menerima interaksi dari pengguna website.
+    
+*** File multimedia
+
+    File multimedia yang dapat dimasukkan ke dalam halaman web dapat berupa:
+
+    - gambar (jpg, svg, png, gif)
+    - suara (wav, mp3, webm)
+    - video (webm, mp4, mkv)
+
+** Domain
+   
+   Alamat domain atau domain adalah nama unik yang digunakan untuk mengidentifikasi sesuatu di internet,
+   salah satunya adalah website. Contoh: bhaktianindya.sch.id
+
+*** Domain name system
+
+    Domain name system (DNS) mengubah alamat domain (bhaktianindya.sch.id) menjadi alamat IP (103.11.107.132).
+
+*** Domain registrar
+    
+    Domain registrar adalah penyedia layanan pendaftaran domain. Umumnya, sebuah domain disewa secara tahunan.
+    Kita dapat menyewa pada domain registrar.
+    
+*** Tingkatan pada domain
+    
+    Sebuah domain memiliki beberapa bagian yang dipisahkan oleh tanda titik, seperti berikut:
+    
+    [[./img/domain.svg]]
+    
+*** Top Level Domain
+    
+    Top Level Domain (TLD) umum (com, org, info, net, edu, dll) diatur oleh organisasi bernama
+    Internet Corporation for Assigned Names and Numbers (ICANN).
+    
+    Untuk domain berupa kode negara (id, my, sg, au, us, dll) dikelola oleh organisasi masing-
+    masing negara. TLD id dikelola oleh Pengelola Nama Domain Indonesia (PANDI).
+
+*** Second Level Domain
+    
+    Second Level Domain (SLD) digunakan oleh pengelola TLD untuk mengelompokkan jenis domain
+    berdasarkan fungsinya. Contoh: sch.id adalah SLD untuk sekolah di Indonesia, co.id adalah
+    SLD untuk perusahaan (PT) di Indonesia.
+
+*** Sub domain
+    
+    Sub domain digunakan oleh pemilik domain untuk memisahkan sumber dayanya untuk diakses dari internet.
+    Contoh: jika website sekolah berada di bhaktianindya.sch.id, maka software e-learning dapat diletakkan
+    pada e-learning.bhaktianindya.sch.id.
+
+** Protokol
+   
+   Web diakses menggunakan protokol hypertext transfer protocol (http).
+   contoh: http://bhaktianindya.sch.id
+   
+*** https
+    
+   Selain http, website juga dapat diakses dengan menggunakan http over transport layer security
+   (TLS) atau yang lebih dikenal dengan https.
+   contoh: https://bhaktianindya.sch.id
+   
+*** Perbedaan http dan https
+    
+    Secara kasat mata, yang berbeda hanya huruf *s* di depan tanda titik dua, namun kedua protokol tersebut
+    amat berbeda. http berjalan pada port 80, sedangkan https berjalan pada port 443.
+    
+*** port
+    
+    Bayangkan port sebagai suatu lubang untuk masuk ke rumah (server) dari dan ke jalan (IP). Sebuah port
+    pada komputer hanya dapat digunakan oleh satu program, namun sebuah program dapat menggunakan lebih dari
+    satu port.
+
+* Pembuatan website
+  
+  Sebuah website dibuat oleh desainer web menggunakan alat desain dan koding.
+  
+** Desainer web 
+
+   Desainer web seperti desainer majalah, bertugas membuat layout dari informasi yang perlu ditampilkan pada
+   website.
+   
+** Alat desain web
+   
+   Alat untuk mendesain web terdiri dari:
+
+   - editor grafik (photoshop, [[https://gimp.org][gimp]], [[https://inkscape.org][inkscape]]) untuk membuat mock-up dan mengedit grafik
+   - editor kode sumber ([[https://code.visualstudio.com][visual studio code]], [[https://sublimetext.com][sublime text]], [[https://notepad-plus-plus.org][notepad++]]) untuk membuat file html, css dan js
+   - web browser ([[https://google.com/chrome/index.html][chrome]], [[https://mozilla.org/en-US/firefox/new/][firefox]]) untuk melihat hasil desain
+
+** Tahap pembuatan web
+
+   Seperti umumnya membuat desain, pembuatan website memiliki beberapa tahap:
+   
+   - menentukan informasi yang perlu disertakan
+   - mengumpulkan isi (teks, file multimedia, dll)
+   - membuat mock-up
+   - membuat file html berdasarkan informasi dan isi
+   - membuat css agar tampilan sesuai mock-up
+   - menambahkan javascript jika diperlukan
+   - menguji dengan beberapa web browser
+   - meng-/upload/ ke hosting
+
+* Bahan belajar lanjutan
+
+  - [[https://youtu.be/uOfonONtIuk][Cara kerja DNS]] (video, english)
+  - [[https://youtu.be/tS_tbfL_mgc][Apa itu hosting?]] (video, bahasa)
+  - [[https://youtu.be/0IsQqJ7pwhw][Cara kerja web browser]] (video, english)
+
+* Diskusi
+  
+  Silakan /post/ pertanyaan di google classroom masing-masing kelas.
