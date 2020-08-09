@@ -1,0 +1,94 @@
+#+TITLE: Desain Media Interaktif
+#+SUBTITLE: Mendesain Web
+#+AUTHOR: Dhimas Widrayato
+#+EMAIL: dhimas@lepisi.ac.id
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_THEME: simple
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1> <p><strong>%s</strong></p> <p>%a<br />&lt;%e&gt;</p>
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/
+
+* Pendahuluan
+  
+  Kerjakan dahulu latihan soal sebelum lanjut ke materi ini!
+
+* Desain Web
+  
+  Desain website terbagi menjadi dua bagian:
+
+  - desain tampilan
+  - desain fungsi
+    
+* Desain Tampilan
+
+  Mendesain tampilan sebuah website mirip seperti mendesain tampilan sebuah majalah
+  yang panjang halamannya tidak terbatas.
+   
+** Hal yang perlu diperhatikan
+    
+    Tampilan website perlu:
+    
+    - skema warna yang konsisten dan tidak berlebihan
+    - jenis huruf dipilih sesuai kegunaan
+    - konsistensi perataan dan peletakan elemen-elemen desain
+
+*** Skema warna
+     
+     Sebuah website dapat terdiri dari beberapa ratus halaman web, untuk membuatnya
+     terlihat sebagai suatu kesatuan, maka diperlukan skema warna. Biasanya terdiri
+     dari warna utama, warna aksen, warna terang dan gelap serta warna tambahan seperlunya.
+     
+#+REVEAL: split
+     Contoh website yang menggunakan warna dengan baik dapat dilihat di artikel [[https://designshack.net/articles/trends/best-website-color-schemes/][ini]] dan [[https://www.quicksprout.com/trending-website-color-schemes/][ini]].
+
+     Desainer dapat membuat skema warnanya sendiri, namun untuk pemula bisa menggunakan
+     generator seperti [[https://coolors.co/generate][generator ini]].
+
+*** Jenis huruf
+    
+    Jenis huruf pada website umumnya terbagi menjadi tiga jenis:
+
+    - huruf judul
+    - huruf badan teks
+    - huruf spesial (kutipan, dekoratif, kode program)
+      
+#+REVEAL: split
+**** Sesuaikan jenis huruf dengan isi
+    Jenis huruf yang dipilih harus mendukung informasi apa yang ditampilkan, contohnya,
+    untuk website yang bersifat formal seperti sekolah, perusahaan dan institusi pemerintah, jenis
+    huruf yang dipilih tidak boleh yang terlihat "main-main" seperti Comic Sans.
+    
+#+REVEAL: split
+**** Lisensi
+    Pemilihan jenis huruf pada website juga harus memperhatikan lisensi huruf, tidak
+    semua huruf bisa dan boleh digunakan secara bebas di website. Sebaiknya gunakan huruf-huruf
+    yang berlisensi SIL jika pemilik website tidak memiliki lisensi menggunakan huruf pada website.
+    
+#+REVEAL: split
+**** Web fonts
+    Ada banyak penyedia huruf web (web fonts), seperti [[https://fonts.google.com/][google fonts]], [[https://fonts.adobe.com/][Adobe fonts]], [[https://www.fontsquirrel.com/][Font Squirrel]], [[https://www.theleagueofmoveabletype.com/][The League of Moveable Type]], [[https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#Finding_fonts][dll]].
+    
+#+REVEAL: split
+**** Font pairing
+     Memilih pasangan huruf judul dan badan teks adalah salah satu hal yang paling sulit
+     untuk dilakukan terutama untuk desainer pemula. Untuk itu, usahakan sebanyak mungkin
+     melihat pasangan huruf judul dan badan teks yang kamu bisa untuk memperluas wawasan.
+     
+     Kamu bisa melihat contoh font matching pada website [[https://fontpair.co/][ini]], [[https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/][ini]], atau di [[https://www.pagecloud.com/blog/best-google-fonts-pairings][sini]].
+     Selain itu, kamu juga bisa mencoba sendiri di [[https://www.canva.com/font-combinations/][sini]].
+    
+*** Perataan dan Peletakan (Layout)
+    
+    Peletakan dan perataan elemen desain menjadi sangat jelas terlihat pada halaman web.
+    Sebuah halaman web akan terasa "salah" jika perataan dan peletakan elemen-elemennya tidak
+    konsisten.
+    
+    Contoh-contoh layout pada halaman web dapat dilihat di [[https://xd.adobe.com/ideas/principles/web-design/11-website-layouts-that-made-content-shine-in-2019/][sini]], [[https://www.geeksforgeeks.org/css-website-layout/][sini]], [[https://designshack.net/articles/layouts/10-rock-solid-website-layout-examples/][sini]], [[https://en.wikipedia.org/wiki/Web_design][dll]].
+    
+#+REVEAL: split
+**** Jenis layout
+     
+     Secara umum jenis layout dibagi menjadi:
+     
+     - Static (website didesain dengan lebar yang tetap, jika layar lebih sempit, maka muncul scrollbar horizontal)
+     - Fluid (website didesain dengan lebar yang dinamis, biasanya menggunakan persentase dalam menentukan lebarnya)
+     - Responsive (gabungan dari static dan fluid, biasanya tampilan dapat berubah sesuai dengan lebar layar)
